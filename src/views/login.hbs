@@ -1,0 +1,18 @@
+<div class="container my-3 py-3">
+    <h2 class="my-3">Login</h2>
+    <form action="/session/login" method="post">
+        <div class="mb-3">
+            <label for="email" class="form-label">Email address</label>
+            <input type="email" class="form-control" name="email" required>
+        </div>
+        <div class="mb-3">
+            <label for="password" class="form-label">Password</label>
+            <input type="password" class="form-control" name="password" required>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+        <p class="my-3">Don't have an account? <a href="/register">Register here</a></p>
+        <p class="my-3">Forgot your password? <a href="/passwordRecovery">Recover password here</a></p>
+        <!--<p class="my-3">Or login with Github <a href="/session/github">Login here</a></p>-->
+
+    </form>
+</div>
